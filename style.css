@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(white, #006bde);
+}
+.para {
+  background-image: linear-gradient(to right, 006bde , white);
+  color: #012f63;
+  border-radius: 25px;
+  overflow: auto;
+}
+/* label focus color */
+ .input-field input + label {
+   color: #030029 !important;
+ }
+
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #030029;
+  opacity: 1; /* Firefox */
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #030029;
+}
